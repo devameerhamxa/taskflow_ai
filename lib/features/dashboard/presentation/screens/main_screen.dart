@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:taskflow_ai/features/dashboard/presentation/screens/home_screen.dart';
 import 'package:taskflow_ai/features/dashboard/presentation/screens/profile_screen.dart';
 import 'package:taskflow_ai/features/tasks/presentation/screens/task_list_screen.dart';
+import 'package:taskflow_ai/features/ai_tools/presentation/screens/ai_tools_hub_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -16,7 +17,7 @@ class _MainScreenState extends State<MainScreen> {
   static const List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     TaskListScreen(),
-    Scaffold(body: Center(child: Text('AI Tools Hub'))),
+    AIToolsHubScreen(),
     ProfileScreen(),
   ];
 

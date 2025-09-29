@@ -5,7 +5,7 @@ import 'package:taskflow_ai/features/ai_tools/domain/ai_repository.dart';
 import 'package:taskflow_ai/features/ai_tools/domain/parsed_task_data_model.dart';
 
 class GeminiAIRepository implements AIRepository {
-  static const String _model = 'gemini-1.5-flash-latest';
+  static const String _model = 'gemini-pro';
   final String _apiKey;
 
   // This constructor requires the API key to be passed in.

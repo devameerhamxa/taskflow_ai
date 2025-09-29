@@ -46,3 +46,4 @@ app.*.map.json
 
 # Google API key
 .env
+GEMINI_API_KEY=yAIzaSyDBwMmo_l5Fp_DNSDMVcHyg2-lNxTcKoN4
